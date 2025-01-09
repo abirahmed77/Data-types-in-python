@@ -11,6 +11,19 @@ print(revWord)
 print()
 print()
 
+text = input("Enter a Text: ")
+
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+
+revText = text[::-1]
+
+print(revText)
+
+print()
+print()
+
 msg = input("Enter your Congratulations Message : ")
 
 print(msg.upper())
